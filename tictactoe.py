@@ -50,10 +50,10 @@ class Solution:
             [0,5,0,0,2,0,9,0,7],
             [5,0,6,0,1,3,8,7,0]
             ]
-            if a < 10 and a > 0 and b < 10 and b > 0: 
-                return key[a-1][b-1]
-            else:
-                return "invalid"
+        if a < 10 and a > 0 and b < 10 and b > 0: 
+            return key[a-1][b-1]
+        else:
+            return "invalid"
 def main():
     num1 = int(input())
     num2 = int(input())
